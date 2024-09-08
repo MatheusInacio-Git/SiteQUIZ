@@ -1,0 +1,116 @@
+/* Estilos para a imagem de fundo */
+body {
+    background-color: rgb(28, 0, 155);
+    background-image: url('./img/fundo.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* Faz a imagem de fundo permanecer fixa durante a rolagem */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.amarelo {
+    color: rgb(255, 255, 0);
+    font-size: 30px;
+    font-family: 'League Spartan', sans-serif !important;
+    letter-spacing: -1.0px; /* Ajusta o espaçamento entre letras, aproxima */
+    text-shadow: 1.5px 2px 2px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto */
+}
+
+.branco {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'League Spartan', sans-serif !important;
+    letter-spacing: -1.0px; /* Ajusta o espaçamento entre letras, aproxima */
+    text-shadow: 1.5px 2px 2px rgba(19, 18, 18, 0.7); /* Adiciona sombra ao texto */
+    margin: -180px;
+}
+
+.borda {
+    border: 2px solid rgb(255, 255, 255); /* Adiciona uma borda preta ao botão */
+}
+/* ========================================================================================================================= */
+/* TELA EM DISPOSITIVOS MENORES  */
+/* Media queries para responsividade */
+@media (max-width: 1200px) {
+    .card {
+        width: 70%; /* Ajusta a largura do card para 70% da tela */
+        max-width: 600px; /* Define uma largura máxima para o card */
+        margin: 20px auto; /* Centraliza o card horizontalmente */
+    }
+}
+
+@media (max-width: 992px) {
+    .card {
+        width: 80%; /* Aumenta a largura do card para 80% da tela */
+        max-width: 500px; /* Define uma largura máxima para o card */
+        margin: 20px auto; /* Centraliza o card horizontalmente */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%; /* Aumenta a largura do card para 90% da tela */
+        max-width: 500px; /* Define uma largura máxima para o card */
+        margin: 20px auto; /* Centraliza o card horizontalmente */
+        padding: 20px; /* Padding para dar espaço interno */
+    }
+
+    .amarelo {
+        font-size: 24px; /* Reduz o tamanho da fonte para telas menores */
+    }
+
+    .branco {
+        font-size: 18px; /* Reduz o tamanho da fonte para telas menores */
+        margin: 0; /* Remove margens em telas menores */
+    }
+
+    .form-group {
+        margin-bottom: 15px; /* Reduz a margem inferior dos elementos do formulário */
+    }
+
+    .btn {
+        width: 100%; /* Botão ocupa toda a largura disponível */
+    }
+    
+    body{
+        background-image: url('./img/fundoDispMedios.png'); /* Substitua pelo caminho da sua imagem */
+        background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+        background-repeat: no-repeat; /* Impede que a imagem se repita */
+        background-attachment: fixed; /* Faz a imagem de fundo permanecer fixa durante a rolagem */
+        background-position: center; /* Centraliza a imagem */
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 95%; /* Aumenta a largura do card para 95% da tela */
+        padding: 15px; /* Ajusta o padding para telas muito pequenas */
+        margin: 10px auto; /* Margem mínima nas laterais para telas muito pequenas */
+    }
+
+    .amarelo {
+        font-size: 20px; /* Mais ajustes no tamanho da fonte */
+    }
+
+    .branco {
+        font-size: 16px; /* Mais ajustes no tamanho da fonte */
+        margin: 0; /* Remove margem */
+    }
+
+    .form-control {
+        margin-bottom: 10px; /* Reduz a margem inferior dos elementos do formulário */
+    }
+
+    .btn {
+        font-size: 18px; /* Ajusta o tamanho da fonte do botão */
+        padding: 10px; /* Ajusta o padding do botão */
+    }
+    
+    body{
+        background-image: url('./img/fundo1DispMoveis.png'); /* Substitua pelo caminho da sua imagem */
+        background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+        background-repeat: no-repeat; /* Impede que a imagem se repita */
+        background-attachment: fixed; /* Faz a imagem de fundo permanecer fixa durante a rolagem */
+        background-position: center; /* Centraliza a imagem */
+    }
+}

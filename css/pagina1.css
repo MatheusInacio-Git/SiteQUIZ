@@ -1,0 +1,50 @@
+/* Aplicando a fonte League Spartan com mais especificidade */
+h1, p, a, .btn {
+    font-size: 30px;
+    font-family: 'League Spartan', sans-serif !important;
+    color: white;
+    letter-spacing: -1.5px; /* Ajusta o espaçamento entre letras, aproxima */
+    text-shadow: 1.5px 2px 2px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto */
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.verde {
+    color: rgb(0, 253, 0);
+}
+
+.amarelo {
+    color: rgb(255, 255, 0);
+}
+
+/* Estilos para a imagem de fundo */
+body {
+    background-color: rgb(28, 0, 155);
+    background-image: url('./img/fundo.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* Faz a imagem de fundo permanecer fixa durante a rolagem */
+    background-position: center; /* Centraliza a imagem */
+}
+
+/* Estilos personalizados para o botão */
+.btn-warning {
+    font-size: 45px; /* Aumenta o tamanho da fonte do botão */
+    border-radius: 5%;
+    padding: 3px 20px; /* Aumenta o espaçamento interno do botão */
+    border: 2px solid rgb(255, 255, 255); /* Adiciona uma borda preta ao botão */
+}
+
+/* Estilos para a logo */
+.logo-container {
+    margin-top: 20px;
+    margin-bottom: -60px; /* Espaçamento abaixo da logo */
+}
+
+.logo {
+    max-width: 380px; /* Ajuste conforme necessário para o tamanho da logo */
+    height: auto; /* Mantém a proporção da imagem */
+    display:inline-table; /* Garante que a imagem esteja alinhada no centro */
+}
